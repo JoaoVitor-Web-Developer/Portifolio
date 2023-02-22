@@ -3,13 +3,14 @@
 
 * {
     scroll-behavior: smooth;
-    margin: 0;
+
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 15px;
+    margin: 0;
     line-height: 1.7;
     color: #c4c3ca;
     background-color: #1f2029;
@@ -496,9 +497,14 @@ body.nav-active .nav__list-item:nth-child(10) {
     right: 110px;
     background-color: #ffffff15;
     width: 600px;
-    height: 290px;
-    padding: 44px;
+    height: 475px;
+    padding: 20px 60px;
     border-radius: 30px;
+}
+
+.title-skills {
+    font-size: 32px;
+    border-bottom: 3px solid #8167a9
 }
 
 .loader-HTML {
@@ -603,12 +609,36 @@ body.nav-active .nav__list-item:nth-child(10) {
     bottom: -1200px;
 }
 
+.container h2 {
+    font-size: 32px;
+    margin: 30px 30px;
+}
+
 .container img {
     width: 40px;
     padding-left: 15px;
     padding-bottom: 40px;
 }
 
-.container btn {
+.container button {
     background-color: #8167a9;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    height: 60px;
+    width: 230px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    float: right;
+    margin: -90px 210px;
+    transition: all 0.7s;
+}
+
+.container button:hover {
+    background-color: #6e47a8;
+    transform: scale(1.01);
+    -webkit-box-shadow: 0px 0px 40px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 40px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 40px -5px rgba(0, 0, 0, 0.75);
 }
