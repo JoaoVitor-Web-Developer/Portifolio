@@ -1,0 +1,53 @@
+@media screen and (max-width: 1368px) {
+    .about {
+        position: absolute;
+        display: block;
+        left: 5%;
+        width: 500px;
+    }
+
+    .skills {
+        position: absolute;
+        display: block;
+        float: right;
+        right: 110px;
+        background-color: #ffffff15;
+        width: 400px;
+        height: 475px;
+        padding: 20px 60px;
+        border-radius: 30px;
+    }
+
+    .loader-HTML {
+        width: 360px;
+    }
+
+
+    .skill-HTML p {
+        right: -140px;
+    }
+
+
+    .loader-CSS {
+        width: 360px;
+    }
+
+    .skill-CSS p {
+        right: -196px;
+    }
+
+
+
+    .loader-JS {
+        width: 360px;
+    }
+
+    .skill-JS p {
+       right: -290px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
