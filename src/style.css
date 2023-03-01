@@ -479,7 +479,6 @@ width: 100%;
     font-size: 1em;
     padding: 3%;
     display: flex;
-    background-color: #ffffff15;
     border-radius: 30px;
     cursor: default;
 }
@@ -500,7 +499,6 @@ width: 100%;
     display: block;
     float: right;
     right: 110px;
-    background-color: #ffffff15;
     width: 600px;
     height: 4 75px;
     padding: 20px 60px;
@@ -609,7 +607,7 @@ width: 100%;
     width: 100%;
     height: 410px;
     margin: 0;
-    background-color: #ffffff15;
+    background-color: #ffffff09;
     position: absolute;
     bottom: -1200px;
 }

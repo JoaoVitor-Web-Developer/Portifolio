@@ -7,15 +7,7 @@
     }
 
     .skills {
-        position: absolute;
-        display: block;
-        float: right;
-        right: 110px;
-        background-color: #ffffff15;
         width: 400px;
-        height: 475px;
-        padding: 20px 60px;
-        border-radius: 30px;
     }
 
     .loader-HTML {
